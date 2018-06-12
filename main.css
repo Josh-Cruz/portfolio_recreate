@@ -1,0 +1,36 @@
+/* *{
+    background-color: aquamarine;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+} */
+
+.container{
+    background-color: purple;
+    height: 1000px;
+    width: 800px;
+    /* margin: 5px;
+    padding: 5px; */
+}
+.header {
+    display: inline-block;
+    background-color: antiquewhite;
+    width: inherit;
+    height: 80px;
+    padding: 0px;
+}
+.header div {
+    display: inline-block;
+    margin-left: 20px;
+    text-align: center;
+
+}
+
+#picture {
+    width: 395px;
+    height: 260px;
+    background-image: url("./portfolio_images/photo_of_me.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 5px solid grey;
+}
