@@ -6,15 +6,15 @@
 } */
 
 .container{
-    background-color: purple;
+    background: radial-gradient(rgb(107, 87, 107), rgb(13, 3, 27));
     height: 1000px;
-    width: 800px;
+    width: 920px;
     /* margin: 5px;
     padding: 5px; */
 }
 .header {
     display: inline-block;
-    background-color: antiquewhite;
+    background-color:gainsboro;
     width: inherit;
     height: 80px;
     padding: 0px;
@@ -25,7 +25,14 @@
     text-align: center;
 
 }
-
+#rightheader{
+    margin-left: 350px;
+}
+.about{
+     width: 920px;
+    height:310px;
+    display: inline-block;
+}
 #picture {
     width: 395px;
     height: 260px;
@@ -33,4 +40,26 @@
     background-repeat: no-repeat;
     background-size: contain;
     border: 5px solid grey;
+    margin:25px;
+    margin-right: 12.5px;
+    display: inline-block;
+}
+
+.abouttxt {
+    display: inline-block;
+    background-color: blanchedalmond;
+    width: 395px;
+    height: 270px; 
+    margin-left: 12.5px;
+    margin-top: 25px;
+    vertical-align: top;
+
+}
+
+#aboutheader h2{
+background: linear-gradient(0.50turn, gainsboro, rgb(165, 131, 165), gainsboro);
+margin-top: 1px;
+vertical-align: text-top;
+
+
 }
