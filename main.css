@@ -74,8 +74,9 @@ vertical-align: text-top;
 background-color: antiquewhite;
 display: inline-block;
 width: 260px;
-height: 400px;
+height: 475px;
 margin: 15px;
+vertical-align: text-top;
 
 }
 
@@ -93,8 +94,22 @@ vertical-align: text-top;
 
 .projectPic{
     height: 100px;
-    width: 200px;
+    width: 258px;
     background-image: url("./portfolio_images/photo_of_me.jpg");
     background-repeat: no-repeat;
     background-size: contain;
+}
+.projectText p{
+    margin:5px;
+}
+.techHeader{
+background: linear-gradient(0.50turn, gainsboro, rgb(163, 158, 163), gainsboro);
+vertical-align: text-top;
+}
+
+.techHeader h3 {
+    height:30px;
+    margin: 0px;
+    padding: 0px;
+    color: white;
 }
