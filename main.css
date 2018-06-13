@@ -1,9 +1,7 @@
-/* *{
-    background-color: aquamarine;
-    border: 1px solid black;
-    margin: 5px;
-    padding: 5px;
-} */
+ *{
+  
+    border: 1px solid red;
+} 
 
 .container{
     background: radial-gradient(rgb(107, 87, 107), rgb(13, 3, 27));
@@ -55,11 +53,48 @@
     vertical-align: top;
 
 }
+.txtsection {
+    margin:20px;
+    padding:5px;
 
+}
 #aboutheader h2{
 background: linear-gradient(0.50turn, gainsboro, rgb(165, 131, 165), gainsboro);
 margin-top: 1px;
 vertical-align: text-top;
+}
 
+.content{
+    width:920px;
+    height: 650px;
+    text-align: justify;
+    text-align-last:center;
+}
+.project {
+background-color: antiquewhite;
+display: inline-block;
+width: 260px;
+height: 400px;
+margin: 15px;
 
+}
+
+.title {
+background: linear-gradient(0.50turn, gainsboro, rgb(163, 158, 163), gainsboro);
+vertical-align: text-top;
+}
+
+.title h2 {
+    height:30px;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+.projectPic{
+    height: 100px;
+    width: 200px;
+    background-image: url("./portfolio_images/photo_of_me.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
